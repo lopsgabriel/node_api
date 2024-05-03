@@ -1,0 +1,29 @@
+POST http://localhost:7777/videos  
+content-type: application/json
+
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:7777/videos
+
+###
+
+PUT http://localhost:7777/videos/2f291f95-f524-4d09-b32a-830117c59d32
+content-type: application/json
+
+
+{
+    "title": "Real Madrid",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:7777/videos/3db6ef49-fe14-4d43-9da3-6eb807cbaa69
